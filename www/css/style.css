@@ -1,0 +1,106 @@
+.quadrados{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.linha{
+    display: flex;
+}
+
+.quadrado1{
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    background-color: green;
+}
+
+.quadrado2{
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    background-color: brown;
+}
+
+.quadrado3{
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    background-color: blue;
+}
+
+.quadrado4{
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    background-color: red;
+}
+
+.quadrado5{
+    width: 34px;
+    height: 34px;
+    margin: 2px;
+    background-color: orange;
+}
+
+
+  .span {
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      font-size: 40px;
+      text-align: center;
+  } 
+
+  .linha-com-numeros {
+      display: flex;
+      align-items: center;
+  }
+
+  .linha-com-numeros span {
+      margin-right: 10px;
+  }
+
+  .title1 {
+      text-align: center;
+  }
+
+  .numero {
+      display: inline-block;
+      width: 29px;
+      text-align: center;
+  }
+  /*lista de ingressos*/
+
+  .quadrado01{
+      width: 40px;
+      height: 40px;
+      background-color: blue;
+  }
+
+.quadrado02{
+      width: 40px;
+      height: 40px;
+      background-color: red;
+  }
+  
+  .quadrado03{
+      width: 40px;
+      height: 40px;
+      background-color: orange;
+  }
+
+  .quadrado04{
+      width: 40px;
+      height: 40px;
+      background-color: brown;
+  }
+
+  .quadrado05{
+      width: 40px;
+      height: 40px;
+      background-color: green;
+  }
+
+
+
+
+
