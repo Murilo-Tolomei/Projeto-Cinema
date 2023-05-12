@@ -1,3 +1,4 @@
+/*molde dos quadrados*/
 .quadrados{
     display: flex;
     flex-direction: column;
@@ -9,38 +10,38 @@
 }
 
 .quadrado1{
-    width: 34px;
-    height: 34px;
-    margin: 2px;
-    background-color: green;
+    width: 30px;
+    height: 28px;
+    margin: 1px;
+    background-color: black;
 }
 
 .quadrado2{
-    width: 34px;
-    height: 34px;
-    margin: 2px;
-    background-color: brown;
+    width: 30px;
+    height: 28px;
+    margin: 1px;
+    background-color: black;
 }
 
 .quadrado3{
     width: 34px;
-    height: 34px;
-    margin: 2px;
-    background-color: blue;
+    height: 28px;
+    margin: 1px;
+    background-color: black;
 }
 
 .quadrado4{
-    width: 34px;
-    height: 34px;
-    margin: 2px;
-    background-color: red;
+    width: 30px;
+    height: 28px;
+    margin: 1px;
+    background-color: black;
 }
 
 .quadrado5{
-    width: 34px;
-    height: 34px;
-    margin: 2px;
-    background-color: orange;
+    width: 30px;
+    height: 28px;
+    margin: 1px;
+    background-color: black;
 }
 
 
@@ -56,7 +57,7 @@
   }
 
   .linha-com-numeros span {
-      margin-right: 10px;
+      margin-right: 9px;
   }
 
   .title1 {
@@ -76,7 +77,7 @@
       background-color: blue;
   }
 
-.quadrado02{
+  .quadrado02{
       width: 40px;
       height: 40px;
       background-color: red;
@@ -100,7 +101,89 @@
       background-color: green;
   }
 
+/*hovers*/
+.quadrado1:hover{
+    background-color: transparent  ;
+}
 
+.quadrado2:hover{
+    background-color: transparent  ;
+}
 
+.quadrado3:hover{
+    background-color: transparent  ;
+}
 
+.quadrado4:hover{
+    background-color: transparent  ;
+}
 
+.quadrado5:hover{
+    background-color: transparent  ;
+}
+/*border*/
+.quadrado1{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: green;
+}
+
+.quadrado2{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: brown;
+}
+
+.quadrado3{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: blue;
+}
+
+.quadrado4{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: red;
+}
+
+.quadrado5{
+    border-radius: 15px;
+    border-style: ridge;
+    border-width: 3px;
+    border-color: orange;
+}
+
+/*border de valor*/
+.quadrado01{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado02{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado03{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado04{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
+
+.quadrado05{
+    border-radius: 15px;
+    border-color: black;
+    border-width: 3px;
+}
